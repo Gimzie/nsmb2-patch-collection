@@ -1,0 +1,9 @@
+ReplaceWithSkewerUp:
+  type: patch
+  data: 54 72 58 00
+  addr: 0x00528DB8
+
+ReplaceWithSkewerDown:
+  type: patch
+  data: 52 72 58 00
+  addr: 0x00528F30
