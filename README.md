@@ -42,6 +42,6 @@ NOTE: Compiling at the moment only works on Linux (and maybe macOS).
 6) Press "Make and Insert". Your code files will now be patched, and a backup of the originals will be kept in `bak`.
 
 # List of Patches
-- &romfs2sdmc* - Reads game data from a folder on the SD Card named `nsmb2`. Can be used to reload levels without having to restart the game for filesize changes.
+- *romfs2sdmc* - Reads game data from a folder on the SD Card named `nsmb2`. Can be used to reload levels without having to restart the game for filesize changes.
 - *Layer 0 Restored* - Restores Layer 0 functionality. Does not have a spotlight effect like in NSMBWii/U, and does not appear on top of the player.
 - *Up/Down Skewers Restored* - Restores up/down skewers, which replace sprites 37 and 131, both unused in the base game.
