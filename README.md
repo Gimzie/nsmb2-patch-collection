@@ -5,6 +5,31 @@ These patches were not created by me, except for the up/down skewer patch. Credi
 
 All patches are created for the US Gold (0004000000137E00) version of the game, but IPS patches for all regions are provided on the Releases page.
 
+# Usage
+
+1) Dump the `code.bin` and `exheader.bin` from your ROM. You can do this using [CTRTool](https://github.com/3DSGuy/Project_CTR/releases?q=ctrtool&expanded=true).
+- An example command is: `ctrtool.exe --exheader=out/exheader.bin --exefsdir=out <your ROM file here>` (after making a folder named `out`)
+2) Download the patch for your ROM's region from the [releases page](https://github.com/Gimzie/nsmb2-patch-collection/releases). Make sure to download both IPS patches.
+3) Using [IPSPatcher.js](https://zaksabeast.github.io/ipspatcher.js/build/) or similar, patch your `code.bin` and `exheader.bin` with the corresponding IPS patches you downloaded for your region.
+4) Place the patched `code.bin` and `exheader.bin` files in the game's mods directory for Citra, or under `luma/titles/<TitleID>` for Luma3DS. Replace `<TitleID>` with the correct one from the table below:
+
+```
+NSMB2 Standard Edition:
+EUR - 000400000007AF00
+USA - 000400000007AE00
+JPN - 000400000007AD00
+KOR - 00040000000B8900
+
+NSMB2 Gold Edition:
+USA - 0004000000137E00
+
+NSMB2 Special Edition:
+EUR - 0004000000137F00
+JPN - 0000400000137D00
+```
+
+NOTE: More regions will be supported in the future, and I will look into directly being able to load IPS patches on Citra/Luma3DS instead of having to patch manually. The current method is simply to get this out there for the time being. Also, any players of your mod will need a patched copy of the game as well.
+
 # Compiling
 
 NOTE: Compiling at the moment only works on Linux (and maybe macOS).
