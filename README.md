@@ -3,7 +3,7 @@ A collection of publicly available code patches for New Super Mario Bros. 2, for
 
 These patches were not created by me, except for the up/down skewer patch. Credits go to @RicBent for the rest of them.
 
-All patches are created for the US Gold (0004000000137E00) version of the game, but IPS patches for all regions are provided on the Releases page.
+All patches are created for the US Gold (0004000000137E00) version of the game, but IPS patches for all regions are provided on the Releases page. These patches are best used with [this CoinKiller fork](https://github.com/Gimzie/CoinKiller/releases), which supports features like Layer 0 and additional visualizations for sprites.
 
 # Usage
 
