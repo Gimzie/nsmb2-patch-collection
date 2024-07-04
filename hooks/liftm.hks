@@ -1,0 +1,5 @@
+ LiftM_fixOffsetY:
+    type:   branch
+    link:   true
+    addr:   0x003BD6F0
+    func:   LiftM_fixOffsetY
