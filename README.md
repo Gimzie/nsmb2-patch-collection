@@ -46,3 +46,4 @@ NOTE: Compiling at the moment only works on Linux (and maybe macOS).
 - *Layer 0 Restored* - Restores Layer 0 functionality. Does not have a spotlight effect like in NSMBWii/U, and does not appear on top of the player.
 - *Up/Down Skewers Restored* - Restores up/down skewers, which replace sprites 37 and 131, both unused in the base game.
 - *Tri-platform Collision Fix* - Fixes the incorrect collision on the small spinning lift.
+- *+ Clock in non-Coin Rush* - Allow using the + Clocks in normal gameplay with a setting
