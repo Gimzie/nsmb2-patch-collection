@@ -1,0 +1,5 @@
+NonCoinRushClock:
+    type:   branch
+    link:   false
+    addr:   0x0020C64C
+    func:   NonCoinrushClock
