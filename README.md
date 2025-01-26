@@ -10,7 +10,7 @@ All patches are created for the US Gold (0004000000137E00) version of the game, 
 1) Dump the `code.bin` and `exheader.bin` from your ROM. You can do this using [CTRTool](https://github.com/3DSGuy/Project_CTR/releases?q=ctrtool&expanded=true).
 - An example command is: `ctrtool.exe --exheader=out/exheader.bin --exefsdir=out <your ROM file here>` (after making a folder named `out`)
 2) Download the patch for your ROM's region from the [releases page](https://github.com/Gimzie/nsmb2-patch-collection/releases). Make sure to download both IPS patches.
-3) Using [IPSPatcher.js](https://zaksabeast.github.io/ipspatcher.js/build/) or similar, patch your `code.bin` and `exheader.bin` with the corresponding IPS patches you downloaded for your region.
+3) Using [ROM Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) or similar, patch your `code.bin` and `exheader.bin` with the corresponding IPS patches you downloaded for your region.
 4) Place the patched `code.bin` and `exheader.bin` files in the game's mods directory for Citra, or under `luma/titles/<TitleID>` for Luma3DS. Replace `<TitleID>` with the correct one from the table below:
 
 ```
