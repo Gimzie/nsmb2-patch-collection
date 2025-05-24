@@ -1,0 +1,23 @@
+Player_EnterPipeWaterAnimFix1:
+    type:   branch
+    link:   true
+    addr:   0x001FCEDC
+    func:   EnterPipeWaterAnimFix_L
+
+Player_EnterPipeWaterAnimFix2:
+    type:   branch
+    link:   true
+    addr:   0x001FCEE8
+    func:   EnterPipeWaterAnimFix_L
+
+Player_EnterPipeWaterAnimFix3:
+    type:   branch
+    link:   true
+    addr:   0x001FCF10
+    func:   EnterPipeWaterAnimFix_R
+
+Player_EnterPipeWaterAnimFix4:
+    type:   branch
+    link:   true
+    addr:   0x001FCF1C
+    func:   EnterPipeWaterAnimFix_R

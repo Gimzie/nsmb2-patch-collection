@@ -47,3 +47,4 @@ NOTE: Compiling at the moment only works on Linux (and maybe macOS).
 - *Up/Down Skewers Restored* - Restores up/down skewers, which replace sprites 37 and 131, both unused in the base game.
 - *Tri-platform Collision Fix* - Fixes the incorrect collision on the small spinning lift.
 - *+ Clock in non-Coin Rush* - Allow using the + Clocks in normal gameplay with a setting
+- *Underwater Pipe-Exit Animation Fix* - Fixes Mario's underwater pipe-exit animation not playing.
